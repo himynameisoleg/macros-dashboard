@@ -7,7 +7,7 @@ import CreateMacro from "./components/CreateMacro";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="ui container">
         <Route path="/" exact component={MacrosList} />
         <Route path="/create" component={CreateMacro} />
